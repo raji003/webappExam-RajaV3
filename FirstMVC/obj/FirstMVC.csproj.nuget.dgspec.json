@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elonasofie/Documents/GitHub/webappExam/FirstMVC/FirstMVC.csproj": {}
+    "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\firstmvc\\FirstMVC.csproj": {}
   },
   "projects": {
-    "/Users/elonasofie/Documents/GitHub/webappExam/FirstMVC/FirstMVC.csproj": {
+    "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\firstmvc\\FirstMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elonasofie/Documents/GitHub/webappExam/FirstMVC/FirstMVC.csproj",
+        "projectUniqueName": "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\firstmvc\\FirstMVC.csproj",
         "projectName": "FirstMVC",
-        "projectPath": "/Users/elonasofie/Documents/GitHub/webappExam/FirstMVC/FirstMVC.csproj",
-        "packagesPath": "/Users/elonasofie/.nuget/packages/",
-        "outputPath": "/Users/elonasofie/Documents/GitHub/webappExam/FirstMVC/obj/",
+        "projectPath": "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\firstmvc\\FirstMVC.csproj",
+        "packagesPath": "C:\\Users\\akhta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\firstmvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/elonasofie/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\akhta\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
