@@ -1,7 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
 using FirstMVC.Models;
 
 public class UserProgressDB
 {
+    [Key]
     public int UserProgressID { get; set; }
     public string UserID { get; set; } = string.Empty;
     public int CurrentStoryActId { get; set; }
