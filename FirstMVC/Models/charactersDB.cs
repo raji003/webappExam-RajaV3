@@ -1,6 +1,6 @@
-namespace carachters.Models
+namespace characters.Models
 {
-	public class carachters
+	public class characters
     {
         public int carachterID { get; set; }
         public string Name { get; set; } = string.Empty;
@@ -9,6 +9,8 @@ namespace carachters.Models
 		public string? Dialog { get; set; }
 		public string? ImageUrl { get; set; }
         public string? Translate { get; set; }
+
+        public List<storyAct>? storyActs { get; set; }
 
 	}
 }
