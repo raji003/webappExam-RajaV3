@@ -1,6 +1,6 @@
 namespace FirstMVC.Models
 {
-	public class characters
+	public class Characters
     {
         public int characterID { get; set; }
         public string Name { get; set; } = string.Empty;
@@ -10,7 +10,7 @@ namespace FirstMVC.Models
 		public string? ImageUrl { get; set; }
         public string? Translate { get; set; }
 
-        public List<storyAct>? storyActs { get; set; }
+        public List<storyAct>? StoryActs { get; set; }
 
 	}
 }

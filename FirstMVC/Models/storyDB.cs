@@ -11,6 +11,6 @@ namespace FirstMVC.Models
 		public string? ImageUrl { get; set; }
 
         public int? characterId { get; set; }
-        public characters? Character { get; set; }
+        public Characters? Character { get; set; }
 	}
 }

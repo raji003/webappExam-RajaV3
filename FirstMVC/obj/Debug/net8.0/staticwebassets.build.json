@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ky+ipGvkRZXota/WsslNY7+IzcrCEA8/8IuzzhdRHwA=",
+  "Hash": "Xf2s6x+m385fPkBQDyL1FIg+0IrT8rNL631k2bb8tn4=",
   "Source": "FirstMVC",
   "BasePath": "_content/FirstMVC",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\firstmvc\\wwwroot\\images\\raindeer.gif",
+      "SourceId": "FirstMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\firstmvc\\wwwroot\\",
+      "BasePath": "_content/FirstMVC",
+      "RelativePath": "images/raindeer.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\raindeer.gif"
     },
     {
       "Identity": "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\firstmvc\\wwwroot\\js\\site.js",

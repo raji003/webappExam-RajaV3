@@ -10,7 +10,7 @@ namespace FirstMVC.Models
         {
         }
 
-        public DbSet<characters> Characters { get; set; }
+        public DbSet<Characters> Characters { get; set; }
         public DbSet<storyAct> StoryActs { get; set; }
 
         public DbSet<UserProgressDB> UserProgress { get; set; }
