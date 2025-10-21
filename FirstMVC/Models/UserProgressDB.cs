@@ -6,7 +6,7 @@ public class UserProgressDB
     public string UserID { get; set; } = string.Empty;
     public int CurrentStoryActId { get; set; }
 
-    public storyAct? CurrentStoryAct { get; set; } 
+    public StoryAct? CurrentStoryAct { get; set; } 
     public DateTime LastUpdated { get; set; }
     
 }

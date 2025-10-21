@@ -12,7 +12,12 @@ namespace FirstMVC.Data
         }
 
         public DbSet<Characters> Characters { get; set; }
+<<<<<<< HEAD:FirstMVC/Data/ApplicationDbContext.cs
         public DbSet<storyAct> StoryActs { get; set; }
+=======
+        public DbSet<StoryAct> StoryActs { get; set; }
+
+>>>>>>> b7fb39c29e6f77df7668494814390d289fb047d9:FirstMVC/Models/DbContext.cs
         public DbSet<UserProgressDB> UserProgress { get; set; }
     }
 }

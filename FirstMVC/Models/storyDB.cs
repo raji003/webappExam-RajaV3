@@ -1,16 +1,26 @@
 namespace FirstMVC.Models
 {
-	public class storyAct
-    {
-        public int storyActId { get; set; }
-		public string Title { get; set; } = string.Empty;
-        public string Content { get; set; } = string.Empty;
-        
-        
-		public string? Description { get; set; }
-		public string? ImageUrl { get; set; }
+    public class StoryAct {
+    public int StoryActId { get; set; }
+    public string Title { get; set; } = string.Empty;
+    public string Content { get; set; } = string.Empty;
+    public string? Description { get; set; }
+    public string? ImageUrl { get; set; }
 
-        public int? characterId { get; set; }
-        public Characters? Character { get; set; }
-	}
+    public int? CharacterId { get; set; }
+    public Characters? Character { get; set; }
+
+    public List<Choice> Choices { get; set; } = new();
+}
+
+public class Choice {
+    public int Id { get; set; }
+    public string Text { get; set; }
+    public int NextActId { get; set; }
+    public bool IsCorrect { get; set; }
+
+    public int StoryActId { get; set; }
+    public StoryAct StoryAct { get; set; } = null!;
+}
+
 }

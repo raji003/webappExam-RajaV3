@@ -10,7 +10,7 @@ namespace FirstMVC.Models
 		public string? ImageUrl { get; set; }
         public string? Translate { get; set; }
 
-        public List<storyAct>? StoryActs { get; set; }
+        public List<StoryAct>? StoryActs { get; set; }
 
 	}
 }
