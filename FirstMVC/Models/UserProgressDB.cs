@@ -1,4 +1,4 @@
-using SamiLearnGame.Models;
+using FirstMVC.Models;
 
 public class UserProgressDB
 {

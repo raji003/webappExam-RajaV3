@@ -60,3 +60,4 @@ C:\Users\akhta\Documents\GitHub\webappExam\firstmvc\obj\Debug\net8.0\refint\Firs
 C:\Users\akhta\Documents\GitHub\webappExam\firstmvc\obj\Debug\net8.0\FirstMVC.pdb
 C:\Users\akhta\Documents\GitHub\webappExam\firstmvc\obj\Debug\net8.0\FirstMVC.genruntimeconfig.cache
 C:\Users\akhta\Documents\GitHub\webappExam\firstmvc\obj\Debug\net8.0\ref\FirstMVC.dll
+C:\Users\akhta\Documents\GitHub\webappExam\firstmvc\obj\Debug\net8.0\FirstMVC.csproj.AssemblyReference.cache

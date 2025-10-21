@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using SamiLearnGame.Models;
+using FirstMVC.Models;
 
-namespace SamiLearnGame.Models
+namespace FirstMVC.Models
 {
     public class ApplicationDbContext : DbContext
     {
@@ -13,6 +13,6 @@ namespace SamiLearnGame.Models
         public DbSet<characters> Characters { get; set; }
         public DbSet<storyAct> StoryActs { get; set; }
 
-        public DBSet<UserProgressDb> UserProgress { get; set; }
+        public DbSet<UserProgressDB> UserProgress { get; set; }
     }
 }

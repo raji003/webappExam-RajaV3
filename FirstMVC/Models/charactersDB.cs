@@ -1,4 +1,4 @@
-namespace SamiLearnGame.Models
+namespace FirstMVC.Models
 {
 	public class characters
     {
