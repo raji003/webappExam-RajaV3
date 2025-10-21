@@ -1,22 +1,124 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/* --- LANDING PAGE --- */
 body {
-  margin-bottom: 60px;
+    background-color: #ffffff;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container */
+.landing-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90vh;
+    padding: 0 100px;
+}
+
+/* Venstre del (reinsdyr) */
+.landing-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-mascot {
+    width: 380px;
+    max-width: 90%;
+    height: auto;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Høyre del (tekst + knapper) */
+.landing-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 30px;
+}
+
+.landing-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #222;
+    line-height: 1.4;
+    max-width: 420px;
+}
+
+/* Knapper */
+.landing-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.start-btn {
+    background: linear-gradient(135deg, #59f1ff, #3b7bff);
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.15rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 0 0 18px rgba(91, 190, 255, 0.35);
+}
+
+.start-btn:hover {
+    background: linear-gradient(135deg, #45e1ff, #3264ff);
+    transform: translateY(-3px);
+    box-shadow: 0 0 25px rgba(91, 190, 255, 0.55);
+}
+
+.sign-btn {
+    background: white;
+    border: 2px solid #a9caff;
+    padding: 14px 38px;
+    border-radius: 12px;
+    color: #4c8cff;
+    font-size: 1.05rem;
+    font-weight: 500;
+    transition: all 0.25s ease-in-out;
+    text-align: center;
+}
+
+.sign-btn:hover {
+    background: #f0f7ff;
+    color: #2a6fff;
+}
+
+/* Flytende animasjon */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Responsiv */
+@media (max-width: 900px) {
+    .landing-container {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .landing-right {
+        align-items: center;
+    }
+
+    .landing-title {
+        font-size: 1.6rem;
+        max-width: none;
+    }
+
+    .landing-mascot {
+        width: 260px;
+        margin-bottom: 20px;
+    }
+
+    .landing-buttons {
+        align-items: center;
+    }
 }

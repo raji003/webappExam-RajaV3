@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\FirstMVC\\FirstMVC.csproj": {}
+    "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\firstmvc\\FirstMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\FirstMVC\\FirstMVC.csproj": {
+    "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\firstmvc\\FirstMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\FirstMVC\\FirstMVC.csproj",
+        "projectUniqueName": "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\firstmvc\\FirstMVC.csproj",
         "projectName": "FirstMVC",
-        "projectPath": "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\FirstMVC\\FirstMVC.csproj",
+        "projectPath": "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\firstmvc\\FirstMVC.csproj",
         "packagesPath": "C:\\Users\\akhta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\FirstMVC\\obj\\",
+        "outputPath": "C:\\Users\\akhta\\Documents\\GitHub\\webappExam\\firstmvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akhta\\AppData\\Roaming\\NuGet\\NuGet.Config"
