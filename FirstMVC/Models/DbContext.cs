@@ -12,5 +12,7 @@ namespace SamiLearnGame.Models
 
         public DbSet<characters> Characters { get; set; }
         public DbSet<storyAct> StoryActs { get; set; }
+
+        public DBSet<UserProgressDb> UserProgress { get; set; }
     }
 }
