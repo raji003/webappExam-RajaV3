@@ -2,8 +2,19 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">UNLOCK THE MAGIC OF SAMI!</h1>
-    
+<div class="landing-container">
+    <!-- Venstre del: maskott -->
+    <div class="landing-left">
+        <img src="~/images/raindeer.gif" alt="Dancing Reindeer" class="landing-mascot" />
+    </div>
 
+    <!-- Høyre del: tekst og knapper -->
+    <div class="landing-right">
+        <h1 class="landing-title">The fun and visual way to learn Northern Sami!</h1>
+
+        <div class="landing-buttons">
+            <a asp-controller="Account" asp-action="Register" class="btn start-btn">Start Learning</a>
+            <a asp-controller="Account" asp-action="Login" class="btn sign-btn">I already have an account</a>
+        </div>
+    </div>
 </div>
