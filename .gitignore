@@ -56,3 +56,6 @@ ScaffoldingReadMe.txt
 
 ## Local History for Visual Studio
 .localhistory/
+
+## FirstMVC database file
+.FirstMVC.db
